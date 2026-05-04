@@ -12,10 +12,24 @@ function dividir(){
     var resp = document.getElementById("respDiv")
 
     if(n4 !== 0){
-        resp.textContent = n3 / n4
+        resp.textContent = (n3 / n4).toFixed(2)
     }else{
         resp.textContent = "Não se divide por 0"
     }
+}
+
+function mult(){
+    var n1 = document.getElementById("n5").valueAsNumber
+    var n2 = document.getElementById("n6").valueAsNumber 
+    var resp = document.getElementById("respMult")
+    resp.textContent = n1 * n2
+}
+
+function sub(){
+    var n1 = document.getElementById("n7").valueAsNumber
+    var n2 = document.getElementById("n8").valueAsNumber 
+    var resp = document.getElementById("respSub")
+    resp.textContent = n1 - n2
 }
 
 
