@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cálculo de média</title>
     <link rel="stylesheet" href="style.css">
-   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav>
@@ -16,9 +18,13 @@
     </nav>
     <h1>Cálculo de média</h1>
     <main>
-        <input type="number" placeholder="Nota 01" id="n1">
-        <input type="number" placeholder="Nota 02" id="n2">
-        <input type="number" placeholder="Nota 03" id="n3">
+
+        <div>
+            <input type="number" placeholder="Nota 01" id="n1">
+            <input type="number" placeholder="Nota 02" id="n2">
+            <input type="number" placeholder="Nota 03" id="n3">
+        </div>
+        
         <button onclick="calcularMedia()">CALCULAR</button>
         <p id="res"></p>
     </main>
