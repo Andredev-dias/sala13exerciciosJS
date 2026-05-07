@@ -5,10 +5,39 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    padding-top: 100px;
+}
+
 #v1{
     display: none;
 }
 
 #v2{
     display: none;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    box-shadow: 0px 3px 10px #090909;
+}
+
+a{
+    text-decoration: none;
+    color: #090909;
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+a:hover{
+    cursor: pointer;
+    opacity: 1;
 }
